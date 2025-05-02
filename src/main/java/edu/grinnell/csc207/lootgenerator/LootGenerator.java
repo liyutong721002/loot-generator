@@ -87,7 +87,7 @@ public class LootGenerator {
 
         System.out.println("Fighting " + monster.getName());
         System.out.println("You have slain " + monster.getName() + "!");
-        System.err.println(monster.getName() + " dropped:");
+        System.out.println(monster.getName() + " dropped:");
         System.out.println("");
         System.out.println(itemName);
         System.out.println(baseStats);
